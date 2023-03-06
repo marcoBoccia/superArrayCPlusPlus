@@ -14,12 +14,11 @@ int *aggiungiInTesta(int base[], int dim, int nuovo){
 
 int main () {
     int arr[5] = {1,2,3,4,5};
-    int newDim = 6;
-    int nuovo = 0;
+    int dim = 5;
     
-    aggiungiInTesta(arr, newDim, nuovo);
+    aggiungiInTesta(arr, dim, 0);
 
-    for (int i = 0; i < newDim; i++)
+    for (int i = 0; i <= dim; i++)
     {
         cout << arr[i] << " " <<endl;
     }
