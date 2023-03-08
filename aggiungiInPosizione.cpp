@@ -12,7 +12,7 @@ int *aggiungiInPosizione(int base[], int dim, int posizione, int nuovo)
     base[posizione] = nuovo;
 
     dim++;
-    
+    return 0;
 }
 
 int main(){
