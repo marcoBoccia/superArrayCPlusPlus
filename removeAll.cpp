@@ -17,8 +17,12 @@ int removeAll(int base[], int dim, int num)
     {
         base[count++] = 0;
     }
-
-    return base[count];
+    cout << "arr dopo la rimozione: " << endl;
+    for (int i = 0; i < dim; i++)
+    {
+        cout << base[i] << endl;
+    }
+    return 0;
 }
 
 int main()
@@ -33,11 +37,4 @@ int main()
         cout << arr[i] << endl;
     }
     removeAll(arr, dim, num);
-
-    cout << "arr dopo la rimozione: " << endl;
-    for (int i = 0; i < dim; i++)
-    {
-        cout << arr[i] << endl;
-    }
-    return 0;
 }
